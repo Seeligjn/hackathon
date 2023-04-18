@@ -1,0 +1,36 @@
+body {
+    background-image: url('musicBG.jpg');
+}
+
+.container {
+    background-color: black;
+    height: 800px;
+    width:max-content;
+    opacity: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: auto;
+}
+
+.piano-keys {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    font-size:xx-large;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20%;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.title {
+text-align: center;
+font-size: xx-large;
+
+}
